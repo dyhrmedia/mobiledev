@@ -1,0 +1,17 @@
+<Alloy>
+	<Window class="v bg-green">
+		<ScrollView class="v wrapper">
+			<View class="header">
+				<ImageView class="logo" image="lock.png" />
+			</View>
+			<ScrollableView id="loginScrollableView" class="content">
+				<!-- LOGIN -->
+				<View id="view_login" class="v">
+					<TextField id="btnLoginEmail" class="txt txt--email" />
+					<TextField id="btnLoginPassword" class="txt txt--pass" />
+				</View>
+			</ScrollableView>
+		</ScrollView>
+	</Window>
+</Alloy>
+
